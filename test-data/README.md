@@ -12,6 +12,6 @@ plink2 --pgen all_hg38.pgen --pvar all_hg38.pvar.zst --psam all_hg38.psam \
 --out hg38_thinned --maf 0.01 --chr 1-22 \
 --allow-extra-chr --max-alleles 2 --bp-space 10 --thin-count 100000
 #bp-space:Remove variants so each pair is no closer than the given distance.
-# 10 bp in this case, thins to make merge easier
+#10 bp in this case, thins to make merge easier
 #thin-count to reduce SNPs to only 100,000, reducing file size for PC-AiR practice
 
